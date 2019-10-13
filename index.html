@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header id="main-header">
+        <h1 id="title"> HTML Documentation: Common HTML5 Tags </h1>
+        <p style="font-size: 0.9em;" id="description"> Reference guide on utilizing common HTML5 tags for webpages. </p>
+    </header>
+    <main id="main-doc">
+        <nav id="navbar">
+            <header>
+                <h3> Common HTML5 Tags </h3>
+            </header>
+            <a href="#Heading_Tag" class="nav-link"> Heading Tag </a><br>
+            <a href="#Paragraph_Tag" class="nav-link"> Paragraph Tag </a><br>
+            <a href="#Anchor_Tag" class="nav-link"> Anchor Tag </a><br>
+            <a href="#List_Tag" class="nav-link"> List Tag </a><br>
+            <a href="#Comment_Tag" class="nav-link"> Comment Tag </a>
+        </nav>
+        <section class="main-section" id="Heading_Tag">
+            <header>
+                <h3> Heading Tag</h3>
+            </header>
+            <p> There are <b> six </b> different heading tags that can be used. These range from &lth1&gt,
+                &lth2&gt,...., &lth6&gt. Each tag would be used under different circumstances as each tag represents a
+                different heading size. For instance, &lth1&gt would
+                be used for the most important heading (main heading) as it appears the largest whereas &lth2&gt would
+                be used for the next important heading (sub heading). </p>
+            <p> The following code snippet represents how heading tags can be utilized: </p>
+            <code>
+                      &lth1&gt Main Heading Here &lt/h1&gt<br>
+                      .<br>
+                      .<br>
+                      &lth2&gt Sub Heading Here &lt/h2&gt<br>
+                      &lth2&gt Sub Heading Here &lt/h2&gt
+            </code>
+        </section>
+        <section class="main-section" id="Paragraph_Tag">
+            <header>
+                <h3> Paragraph Tag </h3>
+            </header>
+            <p> The paragraph tag or &ltp&gt is used for paragraph contents. Paragraph contents are represented in a
+                form of text.</p>
+            <p> The following code snippet represents how paragraph tags can be utilized: </p>
+            <code>
+                      &ltp&gt Text! &lt/p&gt
+            </code>
+        </section>
+        <section class="main-section" id="Anchor_Tag">
+            <header>
+                <h3> Anchor Tag </h3>
+            </header>
+            <p> The anchor tag or &lta&gt is used to connect to an external webpage by defining a hyperlink. Important
+                attributes of the anchor tag include href and target. The href attribute is used to define the webpage
+                destination. The target attribute is used
+                to determine if the webpage destination opens in a new tab or replaces the current webpage in the same
+                tab. </p>
+            <p> The following code snippet represents how anchor tags can be utilized: </p>
+            <code>
+                      &lta href="www.google.com"&gt Google.com in same tab &lt/a&gt<br>
+                      &lta href="www.google.com" target="_blank"&gt Google.com in a new tab &lt/a&gt
+            </code>
+        </section>
+        <section class="main-section" id="List_Tag">
+            <header>
+                <h3> List Tag </h3>
+            </header>
+            <p> There are <b> three </b> different list tags that can be used. An ordered list or &ltol&gt is a list
+                that uses numbered bullets. An unordered list or &ltul&gt is a list that uses dot bullets. </p>
+            <p> Unordered list: </p>
+            <ul>
+                <li> Item </li>
+                <li> Item </li>
+                <li> Item </li>
+                <li> Item </li>
+            </ul>
+            <p> Ordered list: </p>
+            <ol>
+                <li> Item </li>
+                <li> Item </li>
+                <li> Item </li>
+                <li> Item </li>
+            </ol>
+            <p> Regardless of the type of list, each list contains list elements or &ltli&gt. </p>
+            <p> The third type of list is a description list which uses different tags for its list elements. </p>
+            <p> The following code snippet respresents how list tags can be utilized: </p>
+            <code>
+                      &ltul&gt <br>
+                      &nbsp &ltli&gt Unordered list element &lt/li&gt<br>
+                      &nbsp &ltli&gt Unordered list element &lt/li&gt<br>
+                      &lt/ul&gt<br>
+                      
+                      &ltol&gt<br>
+                      &nbsp &ltli&gt First list element &lt/li&gt<br>
+                      &nbsp &ltli&gt Second list element &lt/li&gt<br>
+                      &lt/ol&gt
+            </code>
+        </section>
+        <section class="main-section" id="Comment_Tag">
+            <header>
+                <h3> Comment Tag </h3>
+            </header>
+            <p> The comment tag is used to comment parts of the HTML code. The end user will not be able to see the
+                comments unless they have access to the source code. </p>
+            <p> The follow code snippet represents how comment tags can be utilized: </p>
+            <code>
+                      &lt!-- This is a comment. Explain to the end user that comments cannot be seen. --&gt<br>
+                      &ltp&gt Comments cannot be seen on the webpage. &ltp&gt<br>
+            </code>
+        </section>
+    </main>
+    <footer>
+        <p> Alex H, 2019. freeCodeCamp</p>
+    </footer>
+</body>
+
+</html>
